@@ -19,7 +19,7 @@ export const SITE: Site = {
   EMAIL: 'x@chocolily.dev',
   NUM_POSTS_ON_HOMEPAGE: 4,
   POSTS_PER_PAGE: 4,
-  SITEURL: 'https://chocolily.dev',
+  SITEURL: 'https://blog.chocolily.dev',
 }
 
 export const NAV_LINKS: Link[] = [

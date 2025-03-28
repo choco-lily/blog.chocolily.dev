@@ -19,7 +19,7 @@ export async function GET(context: APIContext) {
     return rss({
       title: SITE.TITLE,
       description: SITE.DESCRIPTION,
-      site: 'https://chocolily.dev',
+      site: SITE.SITEURL,
       items: items.map((item) => ({
         title: item.data.title,
         description: item.data.description,

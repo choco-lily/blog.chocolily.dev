@@ -19,15 +19,15 @@
 }
 
 @font-face {
-	font-family: 'Pretendard Variable';
-	src: url('/fonts/PretendardVariable.woff2') format('woff2-variations');
+	font-family: 'Pretendard';
+	src: url('/fonts/Pretendard.woff') format('woff');
 	font-weight: 45 920;
 	font-style: normal;
 	font-display: swap;
 }
 
 * {
-  font-family: 'Pretendard Variable';
+  font-family: 'Pretendard';
 }
 
 @layer base {
