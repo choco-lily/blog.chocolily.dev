@@ -1,7 +1,7 @@
 ---
 name: "chocolily"
 # pronouns: 'chocolily'
-avatar: "https://cdn.chocolily.dev/sakura.jpg"
+avatar: "https://cdn.chocolily.dev/sakura.webp"
 # bio: 'd(-_-)b'
 website: "https://chocolily.dev"
 twitter: "https://x.com/Choco_Lily__"
