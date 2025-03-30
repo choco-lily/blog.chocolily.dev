@@ -22,6 +22,7 @@ export const SITE: Site = {
 }
 
 export const NAV_LINKS: Link[] = [
+    { href: "https://chocolily.dev", label: "docs" },
     { href: "/blog", label: "blog" },
     { href: "/authors", label: "authors" },
     { href: "/about", label: "about" },
