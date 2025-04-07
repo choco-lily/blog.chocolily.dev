@@ -1,0 +1,21 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import Maple from '../../layouts/Maple.astro';
+import { render } from 'astro:content';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('maplestory');
+	return posts.map((post) => ({
+		params: { slug: post.id },
+		props: post,
+	}));
+}
+type Props = CollectionEntry<'maplestory'>;
+
+const post = Astro.props;
+const { Content } = await render(post);
+---
+
+<Maple {...post.data}>
+	<Content />
+</Maple>
