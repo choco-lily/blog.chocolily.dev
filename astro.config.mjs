@@ -9,6 +9,6 @@ export default defineConfig({
         defaultLocale: 'ko',
         locales: ['ko']
     },
-	site: 'https://chocholily.dev',
+	site: 'https://blog.chocholily.dev',
 	integrations: [mdx(), sitemap()],
 });
